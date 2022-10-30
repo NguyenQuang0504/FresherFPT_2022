@@ -1,0 +1,61 @@
+2022-09-12 09:44:09 ERROR Log4jDemo:16 - Sai dinh dang birthDay
+2022-09-12 09:44:10 ERROR Log4jDemo:16 - 
+2022-09-13 15:11:37 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-13 15:11:37 INFO  Log4jDemo:13 - Content log: SELECT * FROM Intern
+2022-09-13 15:11:37 INFO  Log4jDemo:13 - Content log: SELECT * FROM Experience
+2022-09-13 15:11:57 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-13 15:11:57 INFO  Log4jDemo:13 - Content log: SELECT * FROM Intern
+2022-09-13 15:11:57 INFO  Log4jDemo:13 - Content log: SELECT * FROM Experience
+2022-09-13 15:12:04 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-13 15:12:15 INFO  Log4jDemo:13 - Content log: SELECT * FROM Intern
+2022-09-13 15:12:24 INFO  Log4jDemo:13 - Content log: SELECT * FROM Experience
+2022-09-13 15:13:05 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType  FROM Experience UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 15:13:42 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType  FROM Experience UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 15:13:59 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType  FROM Experience UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 15:14:50 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-13 15:15:43 INFO  Log4jDemo:13 - Content log: SELECT * FROM Experience
+2022-09-13 15:15:55 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType  FROM Experience UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 15:18:54 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType  FROM Experience UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 15:26:16 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType  FROM Experience UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 15:26:26 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType  FROM Experience UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher UNION SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 15:32:15 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher 
+2022-09-13 15:32:58 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher 
+2022-09-13 15:33:19 ERROR Log4jDemo:16 - Incorrect syntax near 'Fresher'.
+2022-09-13 15:33:19 INFO  Log4jDemo:13 - Content log: SELECT * Fresher 
+2022-09-13 15:33:39 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher 
+2022-09-13 15:34:33 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher 
+2022-09-13 15:46:04 ERROR Log4jDemo:16 - The column name graduationDate is not valid.
+2022-09-13 15:46:04 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-13 15:47:56 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-13 15:55:46 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-13 16:01:28 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-13 16:01:28 ERROR Log4jDemo:16 - The column name majors is not valid.
+2022-09-13 16:01:28 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 16:01:28 ERROR Log4jDemo:16 - The column name expInYear is not valid.
+2022-09-13 16:01:28 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Experience
+2022-09-13 16:02:41 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-13 16:02:41 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 16:02:41 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Experience
+2022-09-13 16:02:55 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-13 16:02:55 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-13 16:02:55 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Experience
+2022-09-13 16:18:42 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-13 16:18:42 INFO  Log4jDemo:13 - Content log: SELECT * FROM Intern
+2022-09-13 16:18:42 INFO  Log4jDemo:13 - Content log: SELECT * FROM Experience
+2022-09-13 16:18:49 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-13 16:19:35 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-13 16:19:44 INFO  Log4jDemo:13 - Content log: SELECT * FROM Intern
+2022-09-13 16:32:35 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-14 10:10:07 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-14 10:10:07 INFO  Log4jDemo:13 - Content log: SELECT * FROM Intern
+2022-09-14 10:10:07 INFO  Log4jDemo:13 - Content log: SELECT * FROM Experience
+2022-09-14 10:10:52 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-14 10:10:52 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-14 10:10:52 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Experience
+2022-09-14 10:14:54 INFO  Log4jDemo:13 - Content log: SELECT * FROM Intern
+2022-09-14 10:34:54 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-14 10:36:20 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-14 14:43:17 INFO  Log4jDemo:13 - Content log: SELECT * FROM Fresher
+2022-09-14 14:43:35 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Fresher
+2022-09-14 14:43:35 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Intern
+2022-09-14 14:43:35 INFO  Log4jDemo:13 - Content log: SELECT candidateID, fullName, birthDay, email, candidateType FROM Experience

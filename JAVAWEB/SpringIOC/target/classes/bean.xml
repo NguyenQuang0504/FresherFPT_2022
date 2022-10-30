@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="User" class="model.User" autowire="constructor">
+<!--        <property name="userName" value="QuangNV51" />-->
+<!--        <property name="id" value="1"/>-->
+<!--        <property name="password" value="123456"/>-->
+    </bean>
+
+    <bean id="User1" class="model.User" >
+        <constructor-arg name="id" value="2"/>
+        <constructor-arg name="userName" value="QuangNV51"/>
+        <constructor-arg name="password" value="123123"/>
+    </bean>
+
+    <bean id="Address" class="model.Address">
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg name="name" value="Hue"/>
+    </bean>
+
+    <bean id="Customer" class="model.Customer" autowire="constructor">
+        <constructor-arg name="address" ref="Address"/>
+    </bean>
+
+    <bean id="Customer1" class="model.Customer">
+        <property name="address" ref="Address"/>
+    </bean>
+
+
+</beans>

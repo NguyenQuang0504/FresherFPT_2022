@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script crossorigin src="https://unpkg.com/react@17.0.0/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <style>
+        .header{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+    // Use react element
+    // var html = React.createElement('div',
+    //     {},
+    //     React.createElement(
+    //         'h1',
+    //         {class: 'header', title: 'title header'},
+    //         'Test Header'
+    //     ),
+    //     React.createElement(
+    //         'p',
+    //         {class: 'header'},
+    //         'Nguyễn Văn Quang'
+    //     )
+    // );
+
+
+    var data = [
+        {
+            title:"Object 1",
+            content: "Content 1"
+        },{
+            title:"Object 1",
+            content: "Content 1"
+        },
+        {
+            title:"Object 1",
+            content: "Content 1"
+        },
+        {
+            title:"Object 1",
+            content: "Content 1"
+        }
+    ]
+
+    //ues JSX
+    var html = <div>
+        <h1 style={{color: 'red'}}>Title</h1>
+        <p>test babler</p>
+    </div>
+
+    // Create component Header
+    function Header(){
+        return(
+            <div className="header">
+                <h1>Component Header</h1>
+                <p>Day la header</p>
+            </div>
+        )
+    }
+
+    //Create component Content
+    function Content({element}){
+        return(
+            <div>
+                <h2>Content</h2>
+                <p>{element.title}</p>
+                <p>{element.content}</p>
+            </div>
+        )
+    }
+
+    //Create component Footer
+    function Footer(){
+        return(
+            <div>
+                <h3>This is footer</h3>
+            </div>
+        )
+    }
+
+    // component App
+    function App(){
+        return (
+            <div>
+                <Header/>
+                    {data.map((data, index) => (
+                        <Content
+                            key = {index}
+                            element = {data}
+                        />
+                    ))}
+                <Footer/>
+            </div>
+        )
+    }
+
+    // render html to body
+    var elementBody = document.getElementById("root");
+    // render component
+    ReactDOM.render(<App/>, elementBody);
+
+    //render React html
+    // ReactDOM.render(variable, element)
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+faca\training\bean\SinhVien.class
+faca\training\controller\GiaoVienController.class
+faca\training\controller\SinhVienController.class
+faca\training\service\SinhVienService.class
+faca\training\service\GiaoVienService.class
+faca\training\bean\GiaoVien.class
+faca\training\service\impl\GiaoVienServiceImpl.class
+faca\training\service\impl\SinhVienServiceImpl.class
+faca\training\controller\HomeController.class

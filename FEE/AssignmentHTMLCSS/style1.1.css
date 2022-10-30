@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    display: grid;
+    grid-gap: 5px 5px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+.first{
+    grid-template-columns: 70% 30%;
+    display: grid;
+    width: 100%;
+    grid-gap: 5px 5px;
+}
+.first-left, .first-right{
+    background-color: purple;
+ }
+.second{
+    display: grid;
+    grid-template-columns:70% 30%;
+    width: 100%;
+    height: 200px;
+    grid-gap: 5px 5px;
+}
+.second-grid{
+    background-color: orange;
+}
+.second-fr{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px 5px;
+}
+.second-s{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px 5px;
+}
+.right1{
+    background-color: aqua;
+}
+.right2{
+    background-color: green;
+}
+.third{
+    width: 100%;
+    height: 15px;
+    background-color: purple;
+}
+.four{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px 5px;
+    width: 100%;
+    height: 200px;
+}
+.four1, .four2, .four3, .four4{
+    background-color: orange;
+}
+footer{
+    background-color: darkred;
+    width: 100%;
+    height: 50px;
+}
+section{
+    display: grid;
+    grid-gap: 5px 5px;
+}

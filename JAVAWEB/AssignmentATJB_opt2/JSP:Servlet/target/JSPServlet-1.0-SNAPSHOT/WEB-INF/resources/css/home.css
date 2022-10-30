@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.row{
+
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+.footer{
+    padding: 10px;
+}
+.nav-left li:hover{
+    background-color: #d7d5d5;
+    cursor: pointer;
+}
+.nav-left ul{
+    width: 90% !important;
+    position: relative;
+    left: 5%;
+}
+.option:hover{
+    cursor: pointer;
+}
+.option{
+    padding-right: 0px;
+    width: 55px;
+}
